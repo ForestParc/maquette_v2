@@ -19,7 +19,10 @@ body
     font-family: "comic";
     src: url("../fonts/IHATCS__.TTF");
 }
-
+@font-face {
+    font-family: "pasto";
+    src: url("../fonts/Gravity-Book.otf");
+}
 html,
 body
 {
@@ -68,8 +71,8 @@ a
 
 p
 {
-    font-family: "Arial";
-    font-size: 18px;
+    font-family: "pasto", "Arial";
+    font-size: 19px;
 }
 
 hr
@@ -93,8 +96,7 @@ hr
     z-index: 502;
 }
 
-.logo
-{
+.logo {
     float: left;
      color: black;
     margin-left: 15px;
@@ -110,25 +112,28 @@ hr
 .nav {
     margin-right: 50px;
 }
-
+.nav ul {
+    height: 50px;
+}
 .nav ul li {
-    height: 100%;
+    height: 180%;
     list-style: none;
     display: inline;
     text-decoration: none;
     margin: 10px;
 }
 
-.nav ul li a
-{
-    font-size: 23px;
+.nav ul li a {
+    font-size: 26px;
     font-family: "comic";
     color: #fff;
-    text-shadow: 2px 1px #000;
+    text-shadow: 2px 2px #000;
+}
+.nav ul li a:hover {
+    color: coral;
 }
 
-.horizon
-{
+.horizon {
     line-height: 0;
     z-index: 100;
     width: 3000px;
@@ -140,23 +145,8 @@ hr
     margin-bottom: 420px;
     margin-left: 100px;
 }
-.middle
-{
-    z-index: 499;
-    width: 6000px;
-}
 
-.middle img {
-
-    width: auto;
-    height: 1100px;
-    border: 0;
-
-}
-
-.front
-{
-
+.front{
     z-index: 500;
     top: 0px;
     width: 30000px;
@@ -171,19 +161,17 @@ hr
     margin-top: 25px:
 
 }
-.front .page
-{
+.front .page{
 
    transform: translateY(-50%);
 }
 
 
-.page
-{
+.page{
   display: flex;
     flex-direction: column;
     z-index: 503;
-    height: 480px;
+
     background: rgba(232,204,130,0.5);
     padding: 10px 30px;
     border: 20px solid transparent;
@@ -223,50 +211,58 @@ hr
 
 /*//////////asset nuage////////////*/
 .nuage1 {
-margin-bottom: 520px;
-margin-left: 100px;
+position: absolute;
+top: 30px;
+left: 100px;
 }
 .nuage2 {
-margin-bottom: 620px;
-margin-left: 80px;
+position: absolute;
+top: 30px;
+left: 100px;
 }
 .nuage3 {
-margin-bottom: 490px;
-margin-left: 50px;
+position: absolute;
+top: 30px;
+left: 100px;
 }
 .nuage4 {
-margin-bottom: 560px;
-margin-left: 90px;
+position: absolute;
+top: 30px;
+left: 100px;
 }
 .nuage5 {
-margin-bottom: 650px;
-margin-left: 120px;
+position: absolute;
+top: 30px;
+left: 100px;
 }
 .nuage6 {
-margin-bottom: 510px;
-margin-left: 70px;
+position: absolute;
+top: 30px;
+left: 100px;
 }
 .nuage7 {
-margin-bottom: 630px;
-margin-left: 20px;
+position: absolute;
+top: 30px;
+left: 100px;
 }
 .nuage8 {
-margin-bottom: 490px;
-margin-left: 50px;
+position: absolute;
+top: 30px;
+left: 100px;
 }
 .nuage9 {
-margin-bottom: 630px;
-margin-left: 110px;
+position: absolute;
+top: 30px;
+left: 100px;
 }
 
 /*//////////asset nuage////////////*/
-.description
-{
+.description{
     display: flex;
     position: absolute;
     top: 430px;
-    width: 670px;
-    height: 410px;
+    width: 680px;
+    height: 430px;
     left: 360px;
 }
 
@@ -282,7 +278,7 @@ margin-left: 110px;
     position: absolute;
     width: 220px;
     height: 180px;
-    bottom: 278px;
+    bottom: 67%;
     border-radius: 35%;
     left: 417px;
 }
@@ -307,15 +303,15 @@ margin-left: 110px;
     width: 254px;
     height: 98px;
     right: 185px;
-    bottom: 120px;
+    bottom: 30%;
 }
 
 .description .image4{
     position: absolute;
-    width: 250px;
-    height: 90px;
-    right: 200px;
-    bottom: 120px;
+    width: 170px;
+    height: 60px;
+    right: 20px;
+    bottom: 30%;
 }
 
 .page_img .image5{
@@ -369,8 +365,8 @@ margin-left: 110px;
     position: absolute;
     width: 250px;
     height: 350px;
-    left: 75%;
-    bottom: 20%;
+    left: 1525px;
+    top: 300px;
     border: 10px solid transparent;
     border-image: url("../assets/wood1.png") 200;
 }
@@ -387,7 +383,7 @@ margin-left: 110px;
 
 .documentation2{
     top: 55%;
-    left: 3500px;
+    left: 3800px;
     height: 540px;
 }
 
@@ -474,7 +470,7 @@ margin-left: 110px;
 
 .page_img2 .image19{
     position: absolute;
-    width: 300px;
+    width: 370px;
     height: 320px;
     bottom: 50%;
     left: 35%;
@@ -525,23 +521,31 @@ margin-left: 110px;
 
 .options2 .image20{
     position: absolute;
+    height: 200px;
+    width: 500px;
     bottom: 22%;
     left: 2%;
 }
 
 .options2 .image21{
     position: absolute;
+    height: 200px;
+    width: 500px;
     bottom: 0%;
     left: 0%;
 }
 
 .options2 .image22{
     position: absolute;
+    height: 200px;
+    width: 500px;
     left: 0;
 }
 
 .options2 .image23{
     position: absolute;
+    height: 200px;
+    width: 500px;
     left: 0.3%;
     top: 13%;
 }
@@ -556,18 +560,24 @@ margin-left: 110px;
 
 .options2 .image25{
     position: absolute;
+    height: 200px;
+    width: 500px;
     bottom: 28%;
     right: 0;
 }
 
 .options2 .image26{
     position: absolute;
+    height: 200px;
+    width: 500px;
     bottom: 0;
     right: 0.5%;
 }
 
 .options2 .image27{
     position: absolute;
+    height: 200px;
+    width: 500px;
     left: 55%;
     top: 0.5%;
 }
@@ -731,6 +741,8 @@ margin-left: 110px;
 
 .groupes .formule-ado .image31{
     position: absolute;
+    height: 100px;
+    width: 500px;
     left: 0;
 }
 
@@ -742,6 +754,8 @@ margin-left: 110px;
 
 .groupes .formule-ado .image32{
     position: absolute;
+    height: 100px;
+    width: 500px;
     right: 4.5%;
     top: 12%;
 
@@ -756,6 +770,8 @@ margin-left: 110px;
 
 .groupes .formule-ado2 .image33{
     position: absolute;
+    height: 52px;
+    width: auto;
 }
 
 .groupes .formule-ado2 .formule-grp3{
@@ -768,6 +784,8 @@ margin-left: 110px;
 
 .groupes .formule-ado2 .image34{
     position: absolute;
+    height: 100px;
+    width: 500px;
     top: 12%;
     left: 3.5%;
 }
@@ -813,6 +831,8 @@ margin-left: 110px;
 
 .groupes2 .formule-ado .image31{
     position: absolute;
+    height: 200px;
+    width: 500px;
 
 }
 
@@ -825,6 +845,8 @@ margin-left: 110px;
 
 .groupes2 .formule-ado .image32{
     position: absolute;
+    height: 200px;
+    width: 500px;
     top: 18%;
 }
 
@@ -857,7 +879,7 @@ margin-left: 110px;
 .groupes3{
     top: 55%;
     width: 380px;
-    height: 550px;
+    height: 530px;
     left: 12570px;
 }
 
@@ -869,9 +891,9 @@ margin-left: 110px;
 
 .groupes3 .image31{
     position: absolute;
-    top: 20%;
-    width: 380px;
-    height: 500px;
+    top: 15px;
+    width: 440px;
+    height: 560px;
 }
 
 .groupes4{
@@ -923,37 +945,48 @@ label{
 
 .masquotte {
     position: fixed;
-    top: 240px;
+    top: 280px;
     left: 25px;
     height: 200px;
     z-index: 501;
 
-        -webkit-animation:spin 3s linear infinite;
-    -moz-animation:spin 3s linear infinite;
-    animation:spin 3s linear infinite;
+        -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
 }
-@-moz-keyframes spin { 40% { -moz-transform: rotate(10deg); } }
+
+@-ms-keyframes spin {
+    0% { -ms-transform: rotate(0deg); }
+    50% { -ms-transform: rotate(-5deg); }
+}
+@-moz-keyframes spin {
+    0% { -moz-transform: rotate(0deg); }
+    50% { -moz-transform: rotate(-5deg); }
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    50% { -webkit-transform: rotate(-5deg); }
+}
+@keyframes spin {
+    0% { transform:rotate(0deg); }
+    50% { transform:rotate(-5deg); }
+}
+
+/*@-moz-keyframes spin { 40% { -moz-transform: rotate(10deg); } }
 @-webkit-keyframes spin { 40% { -webkit-transform: rotate(10deg); } }
-@keyframes spin { 40% { -webkit-transform: rotate(10deg); transform:rotate(10deg); } }
-
-/*.masquotte {
-    position: fixed;
-    top: 230px;
-    left: 30px;
-    height: 200px;
-    z-index: 501;
-
-
-}*/
+@keyframes spin { 40% { -webkit-transform: rotate(10deg); transform:rotate(10deg); } }*/
 
 .corde {
-    position: fixed;
-    top: 490px;
+    position: fixed !important;
+    top: 550px;
     height: 5px;
-    width: 15000px;
+    width: 30000px;
     z-index: 502;
     background-image: url('../assets/cable.jpg');
     background-size: cover;
-    border-bottom-left-radius: 1000px 70px;
-    border-bottom-right-radius: 1000px 70px;
+
+/*    -webkit-transform:rotate(2deg);
+    -moz-transform:rotate(2deg);
+    -o-transform:rotate(2deg);
+    -ms-transform:rotate(2deg);*/
 }
