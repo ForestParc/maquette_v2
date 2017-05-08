@@ -850,20 +850,80 @@ left: 100px;
     width: 80%;
 }
 
-/*.options2 .paragannif{
-  z-index: 503;
-  position: absolute;
-  right: 2%;
-  top: 70%;
-  width: 40%;
+/*Formule anniversaire 5*/
+.anniv-form5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1%;
+    padding: 1%;
+    height: 80%;
+    background-color: rgba(124, 178, 0, 0.5);
+}
+
+.anniv-form5 img{
+    width: 60%;
+    height: 30%;
+    margin-left: -10px;
+}
+
+.anniv-form5 p{
+    font-size: 14px;
+}
+
+.annif5{
+    font-weight: bold;
+    color: #7CB200;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/*Formule anniversaire 6*/
+.anniv-form6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1%;
+    height: 90%;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.anniv-form6 img{
+    width: 60%;
+    height: 30%;
+    margin-left: -10px;
+}
+
+.anniv-form6 p{
+    margin: 1%;
+    font-size: 14px;
+}
+
+.annif6{
+    font-weight: bold;
+    color: #FF0000;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/*Description laser Game*/
+.anniv-descrip-laser{
+  height: 20%;
+  margin: 1%;
   padding: 1%;
   background-color: rgba(0, 0, 0, 0.5);
-}*/
+}
 
-/*.options2 span{
+.annif7{
+    font-size: 12px;
+    margin-top: -1px;
+}
+
+.annif7 span{
     color: #4313ED;
     font-weight: bold;
-}*/
+    text-shadow: 1px 1px 2px #000;
+}
 
 .options3{
     top: 55%;
