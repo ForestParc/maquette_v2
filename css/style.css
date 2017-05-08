@@ -38,6 +38,7 @@ body
 section{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 article{
@@ -83,6 +84,9 @@ hr
 .header
 {
     position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     top: 0;
     left: 0;
     height: 75px;
@@ -92,39 +96,34 @@ hr
     z-index: 9999;
 }
 
-.header h2 {
-    z-index: 502;
-}
-
 .logo {
-    float: left;
-     color: black;
-    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50px;
     z-index: 1001;
 }
 
-.header .credits
-{
-    float: right;
-    padding-top: 15px;
-}
-
-.nav {
-    margin-right: 50px;
-}
 .nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
     height: 50px;
 }
 .nav ul li {
     height: 180%;
     list-style: none;
-    display: inline;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     text-decoration: none;
-    margin: 10px;
+    text-align: center;
+    margin: 1%;
 }
 
 .nav ul li a {
-    font-size: 26px;
+    font-size: 24px;
     font-family: "comic";
     color: #fff;
     text-shadow: 2px 2px #000;
@@ -168,15 +167,10 @@ hr
 
 
 .page{
-  display: flex;
+    display: flex;
     flex-direction: column;
     z-index: 503;
-<<<<<<< HEAD
-=======
-
->>>>>>> master
     background: rgba(232,204,130,0.5);
-    padding: 10px 30px;
     border: 20px solid transparent;
     border-image: url("../assets/bois1.jpg") 200;
     position: absolute;
@@ -397,56 +391,254 @@ left: 100px;
 
 .documentation
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     top: 55%;
     left: 4850px;
     width: 800px;
     height: 540px;
 }
 
-.documentation p{
-    position: absolute;
-    bottom: 12%;
-    right: 7%;
+.documentation section{
+    width: 100%;
+    height: 100%;
 }
 
-.documentation .image6{
-    position: absolute;
-    width: 40%;
-    height: 45%;
-    top: 4%;
-    left: 5%;
+.documentation article{
+    width: 50%;
+    height: 100%;
 }
 
-.documentation .image7{
-    position: absolute;
-    width: 40%;
-    height: 45%;
-    bottom: 25%;
-    left: 5%;
+.documentation img{
+    margin-right: 1%;
+}
+/*FOrmule*/
+.doc-formule{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(255,115,0,0.5);
+    margin: 1%;
+    padding: 1%;
+    height: 35%;
 }
 
-.documentation .image8{
-    position: absolute;
-    width: 40%;
-    height: 45%;
-    top: 7.5%;
-    right: 5%;
+.doc-form-sec{
+    margin-left: -80px;
 }
 
-.documentation .image9{
-    position: absolute;
-    width: 40%;
-    height: 45%;
-    bottom: 20%;
-    right: 5%;
+.doc-form-sec img{
+    width: 50px;
+    height: 50px;
 }
 
-.documentation .image10{
-    position: absolute;
-    width: 40%;
-    height: 45%;
-    bottom: 0;
-    left: 5%;
+.formule{
+    font-family: "comic";
+    color: #FF7300;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.descrip-form{
+    font-size: 14px;
+}
+
+.footer-doc-form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #FF7300;
+}
+
+.footer-doc-form p{
+    font-size: 12px;
+    font-family: "comic";
+    margin: 1%;
+}
+
+/*Formule1*/
+.doc-formule1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(124,178,0,0.5);
+    margin: 1%;
+    padding: 1%;
+    height: 40%;
+}
+
+.doc-form1-sec{
+    margin-left: -120px;
+    margin-top: -10px;
+}
+
+.doc-form1-sec img{
+    width: 50px;
+    height: 50px;
+}
+
+.formule1{
+    font-family: "comic";
+    color: #7CB200;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.descrip-form1{
+    font-size: 12px;
+    margin-top: -2px;
+}
+
+.footer-doc-form1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #7CB200;
+    height: 50px;
+}
+
+.footer-doc-form1 p{
+    font-size: 12px;
+    font-family: "comic";
+    margin: 1%;
+}
+
+/*Formule2*/
+.doc-formule2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(1,102,255,0.5);
+    margin: 1%;
+    padding: 1%;
+    height: 40%;
+}
+
+.doc-form2-sec{
+    margin-left: -100px;
+    margin-top: -10px;
+}
+
+.doc-form2-sec img{
+    width: 50px;
+    height: 50px;
+}
+
+.formule2{
+    font-family: "comic";
+    color: #0166FF;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.descrip-form2{
+    font-size: 12px;
+    margin-top: -2px;
+}
+
+.footer-doc-form2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #0166FF;
+    height: 50px;
+}
+
+.footer-doc-form2 p{
+    font-size: 12px;
+    font-family: "comic";
+    margin: 1%;
+}
+
+/*Formule3*/
+.doc-formule3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(255,0,0,0.5);
+    margin: 1%;
+    padding: 1%;
+    height: 35%;
+}
+
+.doc-form3-sec{
+    margin-left: -90px;
+    margin-top: -10px;
+}
+
+.doc-form3-sec img{
+    width: 50px;
+    height: 50px;
+}
+
+.formule3{
+    font-family: "comic";
+    color: #FF0000;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.descrip-form3{
+    font-size: 12px;
+    margin-top: -2px;
+}
+
+.footer-doc-form3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #FF0000;
+    height: 50px;
+}
+
+.footer-doc-form3 p{
+    font-size: 12px;
+    font-family: "comic";
+    margin: 1%;
+}
+
+/*Formule4*/
+.doc-formule4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(0,0,0,0.5);
+    margin: 1%;
+    margin-bottom: 20px;
+    padding: 1%;
+    height: 25%;
+}
+
+.doc-form4-sec{
+    margin-left: -60px;
+    margin-top: -10px;
+}
+
+.doc-form4-sec img{
+    width: 50px;
+    height: 50px;
+}
+
+.formule4{
+    font-family: "comic";
+    color: #000;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.descrip-form4{
+    font-size: 12px;
+    margin-top: -2px;
 }
 
 .page_img2{
