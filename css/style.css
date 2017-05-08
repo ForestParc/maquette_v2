@@ -933,25 +933,39 @@ left: 100px;
 }
 
 .options3 article{
-    position: absolute;
-    bottom: 0;
+    width: 100%;
     text-align: center;
 }
 
-.options3 .image28{
-    position: absolute;
-    bottom: 38%;
-    left: 16%;
+.anniv-form-laser{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.options3 .image29{
-    position: absolute;
+.anniv-form-laser img{
+    width: 80%;
+}
+
+.descrip-form-laser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.descrip-form-laser img{
     width: 40%;
-    height: 40%;
-    bottom: 80%;
 }
 
-.options3 span{
+.descrip-form-laser p{
+    margin-top: -10px;
+}
+
+.options3 .descrip-form-laser span{
+    margin-top: -20px;
     color: #00640D;
     font-family: "comic";
     font-weight: bold;
