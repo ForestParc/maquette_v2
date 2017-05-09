@@ -1011,93 +1011,156 @@ left: 100px;
     left: 10800px;
 }
 
-.groupes .formule-ado{
-    position: absolute;
-    left: 0;
-    width: 50%;
-    height: 550px;
+.grp-ado-titre{
+    width: 100%;
 }
 
-.groupes .formule-ado2{
-    position: absolute;
-    right: 0;
-    width: 50%;
-    height: 550px;
+.grp-ado-titre img{
+    width: 40%;
 }
 
-.groupes .image30{
-    position: absolute;
-    bottom: 15%;
-    left: 24%;
-}
-
-.groupes h3{
-    position: absolute;
-    top: 30%;
-    left: 35%;
+.grp-ado-titre h3{
     text-align: center;
     font-family: "comic";
     font-weight: bold;
     font-size: 18px;
 }
 
-.groupes .formule-ado .image31{
-    position: absolute;
-    height: 100px;
-    width: 500px;
-    left: 0;
+.grp-sec{
+    width: 100%;
+    height: 80%;
 }
 
-.groupes .formule-ado .formule-grp1{
-    position: absolute;
-    top: 50%;
-    left: 20%;
+.formule-ado div{
+    margin: 1%;
 }
 
-.groupes .formule-ado .image32{
-    position: absolute;
-    height: 100px;
-    width: 500px;
-    right: 4.5%;
-    top: 12%;
-
+.formule-ado{
+    width: 50%;
+    height: 80%;
 }
 
-.groupes .formule-ado .formule-grp2{
-    position: absolute;
-    top: 75%;
-    left: 20%;
+/*Groupes Ados et Enfants formule 1*/
+.grp-form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+    height: 50%;
+    background-color: rgba(255, 115, 0, 0.5);
+}
+
+.grp-form1 img{
+    width: 90%;
+    height: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.grp-form1 p{
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+.grp-form1 span{
+    color: #FF7300;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/*Groupes Ados et Enfants formule 2*/
+.grp-form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+    height: 50%;
+    background-color: rgba(247, 221, 0, 0.5);
+}
+
+.grp-form2 img{
+    width: 90%;
+    height: 45%;
+    margin-left: -25px;
+    margin-bottom: -20px;
+}
+
+.grp-form2 p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.grp-form2 span{
+    color: #F7DD00;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.formule-ado2{
+    width: 50%;
+    height: 80%;
+}
+
+.formule-ado2 div{
+    margin: 1%;
+}
+
+/*Groupes Ados et Enfants formule 3*/
+.grp-form3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+    height: 40%;
+    background-color: rgba(124, 178, 0, 0.5);
+}
+
+.grp-form3 img{
+    width: 90%;
+    height: 50%;
+    margin-left: -45px;
+    margin-bottom: -10px;
+}
+
+.grp-form3 p{
     font-size: 14px;
 }
 
-.groupes .formule-ado2 .image33{
-    position: absolute;
-    height: 52px;
-    width: auto;
+.grp-form3 span{
+    color: #7CB200;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
 }
 
-.groupes .formule-ado2 .formule-grp3{
-    position: absolute;
-    top: 50%;
-    right: 4%;
-    font-size: 14px;
-    width: 75%;
+/*Groupes Ados et Enfants formule 4*/
+.grp-form4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+    height: 40%;
+    background-color: rgba(255, 0, 0, 0.5);
 }
 
-.groupes .formule-ado2 .image34{
-    position: absolute;
-    height: 100px;
-    width: 500px;
-    top: 12%;
-    left: 3.5%;
+.grp-form4 img{
+    width: 90%;
+    height: 50%;
+    margin-left: -5px;
+    margin-bottom: -15px;
 }
 
-.groupes .formule-ado2 .formule-grp4{
-    position: absolute;
-    top: 75.5%;
-    right: 4%;
-    font-size: 14px;
-    width: 75%;
+.grp-form4 p{
+    font-size: 12px;
+}
+
+.grp-form4 span{
+    color: #FF0000;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .groupes2{
@@ -1107,68 +1170,92 @@ left: 100px;
     left: 11800px;
 }
 
-.groupes2 .formule-ado{
-    position: absolute;
-    left: 0;
-    margin-top: -50px;
-    width: 380px;
-    height: 550px;
+.grp-ado-pass-titre{
+    width: 100%;
 }
 
-.groupes2 .image30{
-    position: absolute;
-    bottom: 30%;
-    right: 0%;
+.grp-ado-pass-titre img{
+    width: 70%;
 }
 
-.groupes2 h3{
-    position: absolute;
-    top: 16%;
-    left: 12%;
+.grp-ado-pass-titre h3{
     text-align: center;
     font-family: "comic";
     font-weight: bold;
     font-size: 18px;
 }
 
-.groupes2 .formule-ado .image31{
-    position: absolute;
-    height: 200px;
-    width: 500px;
-
+.formule-ado3 div{
+    margin: 1%;
 }
 
-.groupes2 .formule-ado .formule-grp1{
-    position: absolute;
-    top: 52%;
-    left: 14%;
-    font-size: 16px;
+.formule-ado3{
+    width: 100%;
+    height: 80%;
 }
 
-.groupes2 .formule-ado .image32{
-    position: absolute;
-    height: 200px;
-    width: 500px;
-    top: 18%;
+/*Groupes Ados et Enfants formule 5*/
+.grp-form5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+    height: 50%;
+    background-color: rgba(124, 178, 0, 0.5);
 }
 
-.groupes2 .formule-ado .formule-grp2{
-    position: absolute;
-    top: 83%;
-    left: 13%;
-    font-size: 14px;
+.grp-form5 img{
+    width: 90%;
+    height: 30%;
+}
+
+.grp-form5 p{
+    font-size: 12px;
+}
+
+.grp-form5 span{
+    color: #7CB200;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/*Groupes Ados et Enfants formule 6*/
+.grp-form6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+    height: 50%;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.grp-form6 img{
+    width: 90%;
+    height: 30%;
+}
+
+.grp-form6 p{
+    font-size: 12px;
+}
+
+.grp-form6 span{
+    color: #FF0000;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .groupes2 .lgf{
   z-index: 503;
   position: absolute;
-  left: 90%;
+  left: 95%;
   top: 55%;
   width: 300px;
-  height: 100px;
+  height: 180px;
   padding: 1%;
   background-color: rgba(0, 0, 0, 0.5);
-  font-size: 13px;
+  font-size: 16px;
   border: 10px solid transparent;
   border-image: url("../assets/wood1.png") 200;
 }
@@ -1185,17 +1272,19 @@ left: 100px;
     left: 12570px;
 }
 
-.groupes3 .image30{
-    position: absolute;
-    bottom: 20%;
-
+.grp-laser-titre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.groupes3 .image31{
-    position: absolute;
-    top: 15px;
-    width: 440px;
-    height: 560px;
+.grp-laser-titre img{
+    width: 70%;
+}
+
+.grp-laser img{
+    width: 100%;
+    height: 100%;
 }
 
 .groupes4{
@@ -1205,21 +1294,126 @@ left: 100px;
     left: 13100px;
 }
 
-.groupes4 .image30{
-    width: 300px;
-    height: 100px;
+.grp-adulte-titre img{
+    width: 50%;
 }
 
-.groupes4 h3{
+.grp-adulte-titre h3{
     text-align: center;
     font-family: "comic";
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
+    margin-top: -15px;
 }
 
-.groupes4 .formule-ado .image31{
-    width: 300px;
-    height: 50px;
+.formule-adultes{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 90%;
+}
+
+.formule-adultes div{
+    margin: 1%;
+}
+
+/*Groupes Adulte formule 1*/
+.grp-adulte-form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+    height: 60%;
+    background-color: rgba(63, 0, 255, 0.5);
+}
+
+.grp-adulte-form1 img{
+    width: 60%;
+    height: 60%;
+    margin-left: -15px;
+    margin-bottom: -15px;
+}
+
+.grp-adulte-form1 p{
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.grp-adulte-form1 span{
+    color: #3F00FF;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/*Groupes Adulte formule 2*/
+.grp-adulte-form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+}
+
+.grp-adulte-form2 img{
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+/*Groupes Adulte formule 3*/
+.grp-adulte-form3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+    height: 40%;
+    background-color: rgba(22, 128, 32, 0.5);
+}
+
+.grp-adulte-form3 img{
+    width: 50%;
+    height: 40%;
+    margin-bottom: -20px;
+}
+
+.grp-adulte-form3 p{
+    font-size: 12px;
+}
+
+.grp-adulte-form3 span{
+    color: #168020;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/*Groupes Adulte formule 4*/
+.grp-adulte-form4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+    height: 40%;
+    background-color: rgba(82, 255, 25, 0.5);
+}
+
+.grp-adulte-form4 img{
+    width: 40%;
+    height: 50%;
+    margin-left: -15px;
+    margin-bottom: -20px;
+}
+
+.grp-adulte-form4 p{
+    font-size: 12px;
+}
+
+.grp-adulte-form4 span{
+    color: #52FF19;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .download
