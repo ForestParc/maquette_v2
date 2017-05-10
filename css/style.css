@@ -424,6 +424,7 @@ left: 100px;
     margin: 1%;
     padding: 1%;
     height: 35%;
+    border-radius: 2%;
 }
 
 .doc-form-sec{
@@ -470,7 +471,7 @@ left: 100px;
     margin: 1%;
     padding: 1%;
     height: 40%;
-    border-radius: 5px;
+    border-radius: 2%;
 }
 
 .doc-form1-sec{
@@ -520,7 +521,7 @@ left: 100px;
     margin: 1%;
     padding: 1%;
     height: 40%;
-    border-radius: 5px;
+    border-radius: 5%;
 }
 
 .doc-form2-sec{
@@ -570,7 +571,7 @@ left: 100px;
     margin: 1%;
     padding: 1%;
     height: 35%;
-    border-radius: 5px;
+    border-radius: 2%;
 }
 
 .doc-form3-sec{
@@ -621,7 +622,7 @@ left: 100px;
     margin-bottom: 20px;
     padding: 1%;
     height: 25%;
-    border-radius: 5px;
+    border-radius: 2%;
 }
 
 .doc-form4-sec{
@@ -739,6 +740,7 @@ left: 100px;
     margin: 1%;
     height: 25%;
     background-color: rgba(255, 115, 0, 0.5);
+    border-radius: 2%;
 }
 
 .anniv-form1 img{
@@ -767,6 +769,7 @@ left: 100px;
     margin: 1%;
     height: 25%;
     background-color: rgba(247, 221, 0, 0.5);
+    border-radius: 2%;
 }
 
 .anniv-form2 img{
@@ -795,6 +798,7 @@ left: 100px;
     margin: 1%;
     height: 25%;
     background-color: rgba(124, 178, 0, 0.5);
+    border-radius: 2%;
 }
 
 .anniv-form3 img{
@@ -824,6 +828,7 @@ left: 100px;
     margin: 1%;
     height: 30%;
     background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 2%;
 }
 
 .anniv-form4 img{
@@ -864,6 +869,7 @@ left: 100px;
     padding: 1%;
     height: 80%;
     background-color: rgba(124, 178, 0, 0.5);
+    border-radius: 2%;
 }
 
 .anniv-form5 img{
@@ -891,6 +897,7 @@ left: 100px;
     margin: 1%;
     height: 90%;
     background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 2%;
 }
 
 .anniv-form6 img{
@@ -916,6 +923,7 @@ left: 100px;
   margin: 1%;
   padding: 1%;
   background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
 }
 
 .annif7{
@@ -1053,6 +1061,7 @@ left: 100px;
     padding: 1%;
     height: 50%;
     background-color: rgba(255, 115, 0, 0.5);
+    border-radius: 2%;
 }
 
 .grp-form1 img{
@@ -1082,6 +1091,7 @@ left: 100px;
     padding: 1%;
     height: 50%;
     background-color: rgba(247, 221, 0, 0.5);
+    border-radius: 2%;
 }
 
 .grp-form2 img{
@@ -1120,6 +1130,7 @@ left: 100px;
     padding: 1%;
     height: 40%;
     background-color: rgba(124, 178, 0, 0.5);
+    border-radius: 2%;
 }
 
 .grp-form3 img{
@@ -1148,6 +1159,7 @@ left: 100px;
     padding: 1%;
     height: 40%;
     background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 2%;
 }
 
 .grp-form4 img{
@@ -1207,6 +1219,7 @@ left: 100px;
     padding: 1%;
     height: 50%;
     background-color: rgba(124, 178, 0, 0.5);
+    border-radius: 2%;
 }
 
 .grp-form5 img{
@@ -1233,6 +1246,7 @@ left: 100px;
     padding: 1%;
     height: 50%;
     background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 2%;
 }
 
 .grp-form6 img{
@@ -1253,12 +1267,12 @@ left: 100px;
 .groupes2 .lgf{
   z-index: 503;
   position: absolute;
-  left: 95%;
-  top: 55%;
+  left: 100%;
+  top: 50%;
   width: 300px;
   height: 180px;
   padding: 1%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   font-size: 16px;
   border: 10px solid transparent;
   border-image: url("../assets/wood1.png") 200;
@@ -1331,6 +1345,7 @@ left: 100px;
     padding: 1%;
     height: 60%;
     background-color: rgba(63, 0, 255, 0.5);
+    border-radius: 2%;
 }
 
 .grp-adulte-form1 img{
@@ -1358,6 +1373,7 @@ left: 100px;
     justify-content: center;
     align-items: flex-start;
     padding: 1%;
+    border-radius: 2%;
 }
 
 .grp-adulte-form2 img{
@@ -1374,6 +1390,7 @@ left: 100px;
     padding: 1%;
     height: 40%;
     background-color: rgba(22, 128, 32, 0.5);
+    border-radius: 2%;
 }
 
 .grp-adulte-form3 img{
@@ -1401,6 +1418,7 @@ left: 100px;
     padding: 1%;
     height: 40%;
     background-color: rgba(82, 255, 25, 0.5);
+    border-radius: 2%;
 }
 
 .grp-adulte-form4 img{
@@ -1449,12 +1467,100 @@ left: 100px;
 
 .page_img4 .image3{
     position: absolute;
-    width: 240px;
+    width: 250px;
     height: 450px;
     left: 100%;
     top: 20%;
     border: 10px solid transparent;
     border-image: url("../assets/wood1.png") 200;
+}
+
+.groupes5{
+    top: 55%;
+    width: 600px;
+    height: 550px;
+    left: 14800px;
+}
+
+.grp-adulte-pass-titre img{
+    width: 50%;
+}
+
+.grp-adulte-pass-titre h3{
+    text-align: center;
+    font-family: "comic";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.formule-adultes-pass{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 90%;
+}
+
+.formule-adultes-pass div{
+    margin: 1%;
+}
+
+/*Groupes Adulte Pass formule 1*/
+.grp-adulte-pass-form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+    height: 40%;
+    background-color: rgba(63, 0, 255, 0.5);
+    border-radius: 2%;
+}
+
+.grp-adulte-pass-form1 img{
+    width: 60%;
+    height: 40%;
+    margin-left: -15px;
+}
+
+.grp-adulte-pass-form1 p{
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.grp-adulte-pass-form1 span{
+    color: #3F00FF;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/*Groupes Adulte Pass formule 2*/
+.grp-adulte-pass-form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1%;
+    height: 40%;
+    background-color: rgba(254, 80, 0, 0.5);
+    border-radius: 2%;
+}
+
+.grp-adulte-pass-form2 img{
+    width: 45%;
+    height: 30%;
+    margin-bottom: -20px;
+}
+
+.grp-adulte-pass-form2 p{
+    font-size: 16px;
+}
+
+.grp-adulte-pass-form2 span{
+    color: #FE5000;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .download
