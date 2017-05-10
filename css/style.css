@@ -470,6 +470,7 @@ left: 100px;
     margin: 1%;
     padding: 1%;
     height: 40%;
+    border-radius: 5px;
 }
 
 .doc-form1-sec{
@@ -519,6 +520,7 @@ left: 100px;
     margin: 1%;
     padding: 1%;
     height: 40%;
+    border-radius: 5px;
 }
 
 .doc-form2-sec{
@@ -568,6 +570,7 @@ left: 100px;
     margin: 1%;
     padding: 1%;
     height: 35%;
+    border-radius: 5px;
 }
 
 .doc-form3-sec{
@@ -618,6 +621,7 @@ left: 100px;
     margin-bottom: 20px;
     padding: 1%;
     height: 25%;
+    border-radius: 5px;
 }
 
 .doc-form4-sec{
@@ -1414,6 +1418,43 @@ left: 100px;
     color: #52FF19;
     font-weight: bold;
     text-shadow: 1px 1px 2px #000;
+}
+
+.page_img4{
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    left: 13800px;
+}
+
+.page_img4 .image1{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    top: 10%;
+    left: 10%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img4 .image2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 51%;
+    top: 55%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img4 .image3{
+    position: absolute;
+    width: 240px;
+    height: 450px;
+    left: 100%;
+    top: 20%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
 }
 
 .download
