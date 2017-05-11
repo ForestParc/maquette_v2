@@ -1314,6 +1314,7 @@ left: 100px;
 
 .grp-adulte-titre img{
     width: 50%;
+    margin: 1%;
 }
 
 .grp-adulte-titre h3{
@@ -1321,7 +1322,6 @@ left: 100px;
     font-family: "comic";
     font-weight: bold;
     font-size: 16px;
-    margin-top: -15px;
 }
 
 .formule-adultes{
@@ -1484,6 +1484,7 @@ left: 100px;
 
 .grp-adulte-pass-titre img{
     width: 50%;
+    margin: 1%;
 }
 
 .grp-adulte-pass-titre h3{
@@ -1563,12 +1564,59 @@ left: 100px;
     text-shadow: 1px 1px 2px #000;
 }
 
+.page_img5{
+    position: absolute;
+    width: 1300px;
+    height: 600px;
+    left: 15450px;
+}
+
+.page_img5 .image1{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    top: 30%;
+    left: 10%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img5 .image2{
+    position: absolute;
+    width: 350px;
+    height: 270px;
+    left: 35%;
+    top: 25%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img5 .image3{
+    position: absolute;
+    width: 350px;
+    height: 270px;
+    left: 68%;
+    top: 40%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img5 .image4{
+    position: absolute;
+    width: 350px;
+    height: 270px;
+    left: 100%;
+    top: 20%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
 .download
 {
     top: 44%;
     width: 400px;
     height: 400px;
-    left:  25000px;
+    left: 19000px;
 }
 
 form{
