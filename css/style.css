@@ -704,20 +704,37 @@ left: 100px;
 
 .sec_options article{
     margin: 1%;
+    padding: 1%;
     width: 50%;
-    height: 80%;
+}
+
+.organisation{
+    background-color: rgba(203, 18, 110, 0.5);
+    border-radius: 2%;
+}
+
+.reservation{
+    background-color: rgba(19, 123, 253, 0.5);
+    border-radius: 2%;
 }
 
 .options .organisation h3{
     color: #D71374;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .options .reservation h3{
     color: #137BFD;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .options .reservation p{
-    font-size: 12px;
+    font-size: 14px;
+    margin-bottom: -8px;
+}
+
+.options .reservation a{
+    text-shadow: 1px 1px 2px #000;
 }
 
 .options2{
