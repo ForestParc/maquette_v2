@@ -177,19 +177,6 @@ hr
     padding: 5px;
 }
 
-.page_img{
-    position: absolute;
-    top: 20%;
-    left: 4%;
-    width: 2000px;
-    height: 600px;
-}
-
-.page_img img{
-    margin: 1%;
-    z-index: 503;
-}
-
 .icon {
     position: absolute;
     padding: 10px 30px;
@@ -250,78 +237,41 @@ left: 100px;
     position: absolute;
     top: 430px;
     width: 680px;
-    height: 430px;
+    height: 480px;
     left: 360px;
-}
-.description > p ~ p {
-    margin: 3px;
-    padding-left: 8px;
-    text-align: inherit;
-    margin-left: inherit;
-}
-.description > p {
-    margin-left: 12px;
-    text-align: center;
 }
 
 .description .image0{
-    position: absolute;
     width: 30%;
     height: 20%;
-    top: 4%;
-    left: 20%;
 }
 
 .description .image0bis{
-    position: absolute;
     width: 260px;
     height: 150px;
-    bottom: 67%;
     border-radius: 35%;
-    left: 350px;
 }
 
-.description .image1{
+video{
+    height: 90%;
+    border: 3px solid #A06D35;
+    background-color: #4FA445;
+}
+
+.page_img{
     position: absolute;
-    width: 15%;
-    height: 25%;
-    bottom: 46%;
-    left: 3px;
+    top: 20%;
+    left: 4%;
+    width: 800px;
+    height: 600px;
 }
 
-.description .image2{
-    position: absolute;
-    width: 20%;
-    height: 15%;
-    right: 55%;
-    bottom: 28%;
+.page_img img{
+    margin: 1%;
+    z-index: 503;
 }
 
-.description .image3{
-    position: absolute;
-    width: 254px;
-    height: 98px;
-    right: 185px;
-    bottom: 27%;
-}
-
-.description .image4{
-    position: absolute;
-    width: 170px;
-    height: 60px;
-    right: 20px;
-    bottom: 30%;
-}
-
-.page_img .image5{
-    position: absolute;
-    width: 200px;
-    height: 150px;
-    left: 1290px;
-    bottom: 240px;
-}
-
-.page_img .image12{
+.page_img .image1{
     width: 360px;
     height: 260px;
     left: 280px;
@@ -330,75 +280,99 @@ left: 100px;
     border-image: url("../assets/wood1.png") 200;
 }
 
-.page_img .image13{
-    position: absolute;
-    width: 300px;
-    height: 350px;
-    left: 550px;
-    bottom: 180px;
-    border: 10px solid;
-    border-image: url("../assets/bois1.jpg") 200;
-}
-
-.page_img .image14{
+.page_img .image2{
     position: absolute;
     width: 250px;
     height: 350px;
-    left: 1150px;
+    left: 520px;
     bottom: 290px;
     border: 10px solid transparent;
     border-image: url("../assets/wood1.png") 200;
 }
 
-.page_img .image15{
+.page_img .image3{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 680px;
+    bottom: 240px;
+}
+
+.page_img .image4{
     position: absolute;
     width: 250px;
     height: 350px;
-    left: 930px;
+    left: 900px;
     top: 300px;
     border: 10px solid transparent;
     border-image: url("../assets/wood1.png") 200;
 }
 
-.page_img .image16{
-    position: absolute;
-    width: 250px;
-    height: 350px;
-    left: 1525px;
-    top: 300px;
-    border: 10px solid transparent;
-    border-image: url("../assets/wood1.png") 200;
-}
-
-.page_img .image17{
-    position: absolute;
-    width: 250px;
-    height: 350px;
-    left: 95%;
-    bottom: 40%;
-    border: 10px solid transparent;
-    border-image: url("../assets/wood1.png") 200;
-}
-
-.documentation2{
-    top: 55%;
-    left: 3800px;
-    height: 540px;
-}
-
-.documentation2 article{
+.description2{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50%;
+    position: absolute;
+    top: 430px;
+    width: 680px;
+    height: 480px;
+    left: 2700px;
+}
+.description2 > p ~ p {
+    margin: 3px;
+    padding-left: 8px;
+    text-align: inherit;
+    margin-left: inherit;
+}
+.description2 > p {
+    text-align: center;
 }
 
-/*.documentation2 .image11{
-    width: 50%;
-    height: 155px;
-}*/
+.description2 .image1{
+    width: 15%;
+    height: 25%;
+    margin: 1%;
+}
+
+.description2 .image2{
+    width: 30%;
+    height: 15%;
+}
+
+.page_img5{
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    left: 3400px;
+}
+
+.page_img5 .image1{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    top: 30%;
+    left: 10%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img5 .image3{
+    position: absolute;
+    width: 350px;
+    height: 270px;
+    left: 45%;
+    top: 40%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img5 .image4{
+    position: absolute;
+    width: 350px;
+    height: 270px;
+    left: 90%;
+    top: 20%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
 
 .documentation
 {
@@ -689,12 +663,66 @@ left: 100px;
     border-image: url("../assets/wood1.png") 200;
 }
 
+.groupes3{
+    top: 55%;
+    width: 380px;
+    height: 530px;
+    left: 6700px;
+}
+
+.grp-laser-titre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grp-laser-titre img{
+    width: 70%;
+}
+
+.grp-laser img{
+    width: 100%;
+    height: 100%;
+}
+
+.page_img3{
+    position: absolute;
+    top: 20%;
+    left: 7300px;
+    width: 500px;
+    height: 600px;
+}
+
+.page_img3 img{
+    z-index: 503;
+}
+
+.page_img3 .image35{
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    right: 85%;
+    bottom: 55%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img3 .image36{
+    position: absolute;
+    width: 70%;
+    height: 40%;
+    right: 8%;
+    bottom: 11%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
 .options
 {
     top: 55%;
     width: 1000px;
     height: 550px;
-    left: 7000px;
+    left: 8000px;
 }
 
 .sec_options{
@@ -735,318 +763,6 @@ left: 100px;
 
 .options .reservation a{
     text-shadow: 1px 1px 2px #000;
-}
-
-.options2{
-    top: 55%;
-    width: 1000px;
-    height: 550px;
-    left: 8100px;
-}
-
-.options2 section{
-    width: 100%;
-    height: 100%;
-}
-
-.options2 article{
-    width: 50%;
-    height: 100%;
-}
-
-.anniv-titre{
-    display: flex;
-    justify-content: center;
-
-}
-
-.anniv-titre img{
-    width: 80%;
-    margin: 1%;
-}
-
-/*Formule anniversaire 1*/
-.anniv-form1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 1%;
-    height: 25%;
-    background-color: rgba(255, 115, 0, 0.5);
-    border-radius: 2%;
-}
-
-.anniv-form1 img{
-    width: 90%;
-    height: 40%;
-    margin-bottom: -10px;
-}
-
-.anniv-form1 p{
-    margin: 1%;
-    font-size: 16px;
-}
-
-.annif1{
-    font-weight: bold;
-    color: #FF7300;
-    text-shadow: 1px 1px 2px #000;
-}
-
-/*Formule anniversaire 2*/
-.anniv-form2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 1%;
-    height: 25%;
-    background-color: rgba(247, 221, 0, 0.3);
-    border-radius: 2%;
-}
-
-.anniv-form2 img{
-    width: 70%;
-    height: 50%;
-}
-
-.anniv-form2 p{
-    margin: 1%;
-    margin-top: -15px;
-    font-size: 14px;
-}
-
-.annif2{
-    font-weight: bold;
-    color: #F7DD00;
-    text-shadow: 1px 1px 2px #000;
-}
-
-/*Formule anniversaire 3*/
-.anniv-form3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 1%;
-    height: 25%;
-    background-color: rgba(124, 178, 0, 0.3);
-    border-radius: 2%;
-}
-
-.anniv-form3 img{
-    width: 80%;
-    height: 55%;
-    margin-top: -15px;
-}
-
-.anniv-form3 p{
-    margin: 1%;
-    margin-top: -20px;
-    font-size: 16px;
-}
-
-.annif3{
-    font-weight: bold;
-    color: #7CB200;
-    text-shadow: 1px 1px 2px #000;
-}
-
-/*Formule anniversaire 4*/
-.anniv-form4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 1%;
-    height: 30%;
-    background-color: rgba(255, 0, 0, 0.3);
-    border-radius: 2%;
-}
-
-.anniv-form4 img{
-    width: 90%;
-    height: 50%;
-    margin-top: -10px;
-}
-
-.anniv-form4 p{
-    margin: 1%;
-    margin-top: -15px;
-    font-size: 14px;
-}
-
-.annif4{
-    font-weight: bold;
-    color: #FF0000;
-    text-shadow: 1px 1px 2px #000;
-}
-
-.anniv-titre2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.anniv-titre2 img{
-    width: 80%;
-}
-
-/*Formule anniversaire 5*/
-.anniv-form5{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 1%;
-    padding: 1%;
-    height: 80%;
-    background-color: rgba(124, 178, 0, 0.3);
-    border-radius: 2%;
-}
-
-.anniv-form5 img{
-    width: 60%;
-    height: 30%;
-    margin-left: -10px;
-}
-
-.anniv-form5 p{
-    font-size: 14px;
-}
-
-.annif5{
-    font-weight: bold;
-    color: #7CB200;
-    text-shadow: 1px 1px 2px #000;
-}
-
-/*Formule anniversaire 6*/
-.anniv-form6{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 1%;
-    height: 90%;
-    background-color: rgba(255, 0, 0, 0.3);
-    border-radius: 2%;
-}
-
-.anniv-form6 img{
-    width: 60%;
-    height: 30%;
-    margin-left: -10px;
-}
-
-.anniv-form6 p{
-    margin: 1%;
-    font-size: 14px;
-}
-
-.annif6{
-    font-weight: bold;
-    color: #FF0000;
-    text-shadow: 1px 1px 2px #000;
-}
-
-/*Description laser Game*/
-.anniv-descrip-laser{
-  height: 20%;
-  margin: 1%;
-  padding: 1%;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 2%;
-}
-
-.annif7{
-    font-size: 12px;
-    margin-top: -1px;
-}
-
-.annif7 span{
-    color: #4313ED;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #000;
-}
-
-.options3{
-    top: 55%;
-    width: 700px;
-    height: 550px;
-    left: 9200px;
-}
-
-.options3 article{
-    width: 100%;
-    text-align: center;
-}
-
-.anniv-form-laser{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.anniv-form-laser img{
-    width: 80%;
-}
-
-.descrip-form-laser{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1%;
-}
-
-.descrip-form-laser img{
-    width: 40%;
-}
-
-.descrip-form-laser p{
-    margin-top: -10px;
-}
-
-.options3 .descrip-form-laser span{
-    margin-top: -20px;
-    color: #00640D;
-    font-family: "comic";
-    font-weight: bold;
-}
-
-.page_img3{
-    position: absolute;
-    top: 20%;
-    left: 10100px;
-    width: 500px;
-    height: 600px;
-}
-
-.page_img3 img{
-    z-index: 503;
-}
-
-.page_img3 .image35{
-    position: absolute;
-    width: 25%;
-    height: 50%;
-    right: 85%;
-    bottom: 55%;
-    border: 10px solid transparent;
-    border-image: url("../assets/wood1.png") 200;
-}
-
-.page_img3 .image36{
-    position: absolute;
-    width: 70%;
-    height: 40%;
-    right: 8%;
-    bottom: 11%;
-    border: 10px solid transparent;
-    border-image: url("../assets/wood1.png") 200;
 }
 
 .groupes{
@@ -1317,28 +1033,6 @@ left: 100px;
     font-weight: bold;
 }
 
-.groupes3{
-    top: 55%;
-    width: 380px;
-    height: 530px;
-    left: 12570px;
-}
-
-.grp-laser-titre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.grp-laser-titre img{
-    width: 70%;
-}
-
-.grp-laser img{
-    width: 100%;
-    height: 100%;
-}
-
 .groupes4{
     top: 55%;
     width: 600px;
@@ -1598,52 +1292,6 @@ left: 100px;
     text-shadow: 1px 1px 2px #000;
 }
 
-.page_img5{
-    position: absolute;
-    width: 1300px;
-    height: 600px;
-    left: 15450px;
-}
-
-.page_img5 .image1{
-    position: absolute;
-    width: 250px;
-    height: 400px;
-    top: 30%;
-    left: 10%;
-    border: 10px solid transparent;
-    border-image: url("../assets/wood1.png") 200;
-}
-
-.page_img5 .image2{
-    position: absolute;
-    width: 350px;
-    height: 270px;
-    left: 35%;
-    top: 25%;
-    border: 10px solid transparent;
-    border-image: url("../assets/wood1.png") 200;
-}
-
-.page_img5 .image3{
-    position: absolute;
-    width: 350px;
-    height: 270px;
-    left: 68%;
-    top: 40%;
-    border: 10px solid transparent;
-    border-image: url("../assets/wood1.png") 200;
-}
-
-.page_img5 .image4{
-    position: absolute;
-    width: 350px;
-    height: 270px;
-    left: 100%;
-    top: 20%;
-    border: 10px solid transparent;
-    border-image: url("../assets/wood1.png") 200;
-}
 /*******************************/
 .download
 {
@@ -1716,6 +1364,26 @@ label{
     -o-transform:rotate(2deg);
     -ms-transform:rotate(2deg);*/
 }
+
+.documentation2{
+    top: 55%;
+    left: 19500px;
+    height: 540px;
+}
+
+.documentation2 article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+/*.documentation2 .image11{
+    width: 50%;
+    height: 155px;
+}*/
 
 footer {
     position: fixed;
