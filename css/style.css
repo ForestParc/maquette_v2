@@ -148,7 +148,7 @@ hr
 .front{
     z-index: 500;
     top: 0px;
-    width: 30000px;
+    width: 17000px;
 }
 
 .front img {
@@ -261,7 +261,7 @@ video{
 .page_img{
     position: absolute;
     top: 20%;
-    left: 4%;
+    left: 1200px;
     width: 800px;
     height: 600px;
 }
@@ -634,7 +634,7 @@ video{
 .page_img2{
     position: absolute;
     top: 20%;
-    left: 19.5%;
+    left: 5800px;
     width: 1000px;
     height: 600px;
 }
@@ -655,7 +655,7 @@ video{
 
 .page_img2 .image19{
     position: absolute;
-    width: 370px;
+    width: 250px;
     height: 320px;
     bottom: 50%;
     left: 35%;
@@ -737,13 +737,28 @@ video{
 }
 
 .organisation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 380px;
     background-color: rgba(203, 18, 110, 0.5);
     border-radius: 2%;
 }
 
+.organisation p{
+    font-size: 16px;
+}
+
 .reservation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 380px;
     background-color: rgba(19, 123, 253, 0.5);
     border-radius: 2%;
+    margin: 1%;
 }
 
 .options .organisation h3{
@@ -758,26 +773,146 @@ video{
 
 .options .reservation p{
     font-size: 14px;
-    margin-bottom: -8px;
+    margin-top: -13px;
 }
 
 .options .reservation a{
     text-shadow: 1px 1px 2px #000;
 }
 
+.formules-anniv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 380px;
+    background-color: rgba(70, 229, 3, 0.5);
+    border-radius: 2%;
+}
+
+.form-anniv-accro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #237201;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.form-anniv-accro:hover{
+    box-shadow: 1px 1px 2px #000;
+}
+
+.form-anniv-accro p{
+    color: #fff;
+    font-family: "comic";
+    font-weight: bold;
+}
+
+.form-anniv-accro p:hover{
+    font-size: 18px;
+}
+
+.form-anniv-laser{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #9D0A0F;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.form-anniv-laser:hover{
+    box-shadow: 1px 1px 2px #000;
+}
+
+.form-anniv-laser p{
+    color: #fff;
+    font-family: "comic";
+    font-weight: bold;
+}
+
+.form-anniv-laser p:hover{
+    font-size: 18px;
+}
+
+.form-anniv-pass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #F87103;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.form-anniv-pass:hover{
+    box-shadow: 1px 1px 2px #000;
+}
+
+.form-anniv-pass p{
+    color: #fff;
+    font-family: "comic";
+    font-weight: bold;
+}
+
+.form-anniv-pass p:hover{
+    font-size: 18px;
+}
+
+.page_img6{
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    top: 55%;
+    left: 9100px;
+    z-index: 503;
+}
+
+.page_img6 .image1{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img6 .image2{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    left: 37%;
+    top: -20%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img6 .image3{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 70%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
 .groupes{
     top: 55%;
     width: 900px;
     height: 550px;
-    left: 10800px;
+    left: 10300px;
 }
 
 .grp-ado-titre{
     width: 100%;
-}
-
-.grp-ado-titre img{
-    width: 40%;
 }
 
 .grp-ado-titre h3{
@@ -788,389 +923,125 @@ video{
 }
 
 .grp-sec{
+    justify-content: space-around;
     width: 100%;
     height: 80%;
 }
 
-.formule-ado div{
-    margin: 1%;
+.grp-sec h3{
+    font-size: 20px;
 }
 
 .formule-ado{
-    width: 50%;
+    justify-content: space-around;
+    width: 30%;
     height: 80%;
-}
-
-/*Groupes Ados et Enfants formule 1*/
-.grp-form1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 1%;
-    height: 50%;
     background-color: rgba(255, 115, 0, 0.5);
-    border-radius: 2%;
-}
-
-.grp-form1 img{
-    width: 90%;
-    height: 50%;
-    margin-left: -10px;
-    margin-top: -10px;
-}
-
-.grp-form1 p{
-    font-size: 14px;
-    margin-top: -5px;
-}
-
-.grp-form1 span{
-    color: #FF7300;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #000;
-}
-
-/*Groupes Ados et Enfants formule 2*/
-.grp-form2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     padding: 1%;
-    height: 50%;
-    background-color: rgba(247, 221, 0, 0.5);
     border-radius: 2%;
 }
 
-.grp-form2 img{
-    width: 90%;
-    height: 45%;
-    margin-left: -25px;
-    margin-bottom: -20px;
-}
-
-.grp-form2 p{
-    font-size: 12px;
-    margin-bottom: 20px;
-}
-
-.grp-form2 span{
-    color: #F7DD00;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #000;
-}
-
-.formule-ado2{
-    width: 50%;
-    height: 80%;
-}
-
-.formule-ado2 div{
-    margin: 1%;
-}
-
-/*Groupes Ados et Enfants formule 3*/
-.grp-form3{
+.form-accro{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
-    padding: 1%;
-    height: 40%;
-    background-color: rgba(124, 178, 0, 0.5);
-    border-radius: 2%;
-}
-
-.grp-form3 img{
-    width: 90%;
-    height: 50%;
-    margin-left: -45px;
-    margin-bottom: -10px;
-}
-
-.grp-form3 p{
-    font-size: 14px;
-}
-
-.grp-form3 span{
-    color: #7CB200;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #000;
-}
-
-/*Groupes Ados et Enfants formule 4*/
-.grp-form4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 1%;
-    height: 40%;
-    background-color: rgba(255, 0, 0, 0.5);
-    border-radius: 2%;
-}
-
-.grp-form4 img{
-    width: 90%;
-    height: 50%;
-    margin-left: -5px;
-    margin-bottom: -15px;
-}
-
-.grp-form4 p{
-    font-size: 12px;
-}
-
-.grp-form4 span{
-    color: #FF0000;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #000;
-}
-
-.groupes2{
-    top: 55%;
-    width: 380px;
-    height: 550px;
-    left: 11800px;
-}
-
-.grp-ado-pass-titre{
+    align-items: center;
     width: 100%;
+    height: 40px;
+    background-color: #237201;
+    border-radius: 2%;
+    cursor: pointer;
 }
 
-.grp-ado-pass-titre img{
-    width: 70%;
+.form-accro:hover{
+    box-shadow: 1px 1px 2px #000;
 }
 
-.grp-ado-pass-titre h3{
-    text-align: center;
+.form-accro p{
+    color: #fff;
     font-family: "comic";
     font-weight: bold;
-    font-size: 18px;
 }
 
-.formule-ado3 div{
-    margin: 1%;
+.form-accro p:hover{
+    font-size: 20px;
 }
 
-.formule-ado3{
+.form-laser{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 80%;
-}
-
-/*Groupes Ados et Enfants formule 5*/
-.grp-form5{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 1%;
-    height: 50%;
-    background-color: rgba(124, 178, 0, 0.5);
+    height: 40px;
+    background-color: #9D0A0F;
     border-radius: 2%;
+    cursor: pointer;
 }
 
-.grp-form5 img{
-    width: 90%;
-    height: 30%;
+.form-laser:hover{
+    box-shadow: 1px 1px 2px #000;
 }
 
-.grp-form5 p{
-    font-size: 12px;
-}
-
-.grp-form5 span{
-    color: #7CB200;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #000;
-}
-
-/*Groupes Ados et Enfants formule 6*/
-.grp-form6{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 1%;
-    height: 50%;
-    background-color: rgba(255, 0, 0, 0.5);
-    border-radius: 2%;
-}
-
-.grp-form6 img{
-    width: 90%;
-    height: 30%;
-}
-
-.grp-form6 p{
-    font-size: 12px;
-}
-
-.grp-form6 span{
-    color: #FF0000;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #000;
-}
-
-.groupes2 .lgf{
-  z-index: 503;
-  position: absolute;
-  right: -91%;
-  top: 40%;
-  width: 300px;
-  height: 180px;
-  padding: 1%;
-  background-color: rgba(0, 0, 0, 0.2);
-  text-shadow: 1px 1px 2px #000;
-  font-size: 16px;
-  border: 10px solid transparent;
-  border-image: url("../assets/wood1.png") 200;
-}
-
-.groupes2 .lgf span{
-    color: #4313ED;
-    font-weight: bold;
-}
-
-.groupes4{
-    top: 55%;
-    width: 600px;
-    height: 550px;
-    left: 13100px;
-}
-
-.grp-adulte-titre img{
-    width: 50%;
-    margin: 1%;
-}
-
-.grp-adulte-titre h3{
-    text-align: center;
+.form-laser p{
+    color: #fff;
     font-family: "comic";
     font-weight: bold;
-    font-size: 16px;
 }
 
-.formule-adultes{
+.form-laser p:hover{
+    font-size: 20px;
+}
+
+.form-pass{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
-    height: 90%;
-}
-
-.formule-adultes div{
-    margin: 1%;
-}
-
-/*Groupes Adulte formule 1*/
-.grp-adulte-form1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 1%;
-    height: 60%;
-    background-color: rgba(63, 0, 255, 0.5);
+    height: 40px;
+    background-color: #F87103;
     border-radius: 2%;
+    cursor: pointer;
 }
 
-.grp-adulte-form1 img{
-    width: 60%;
-    height: 60%;
-    margin-left: -15px;
-    margin-bottom: -15px;
+.form-pass:hover{
+    box-shadow: 1px 1px 2px #000;
 }
 
-.grp-adulte-form1 p{
-    font-size: 12px;
-    margin-top: -10px;
-}
-
-.grp-adulte-form1 span{
-    color: #3F00FF;
+.form-pass p{
+    color: #fff;
+    font-family: "comic";
     font-weight: bold;
-    text-shadow: 1px 1px 2px #000;
 }
 
-/*Groupes Adulte formule 2*/
-.grp-adulte-form2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+.form-pass p:hover{
+    font-size: 20px;
+}
+
+.formule-adulte{
+    justify-content: space-around;
+    width: 30%;
+    height: 80%;
+    background-color: rgba(63, 0, 254, 0.5);
     padding: 1%;
     border-radius: 2%;
 }
 
-.grp-adulte-form2 img{
-    width: 100%;
-    margin-bottom: -10px;
-}
-
-/*Groupes Adulte formule 3*/
-.grp-adulte-form3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+.formule-edv{
+    justify-content: space-around;
+    width: 30%;
+    height: 80%;
+    background-color: rgba(60, 206, 7, 0.5);
     padding: 1%;
-    height: 40%;
-    background-color: rgba(22, 128, 32, 0.5);
     border-radius: 2%;
-}
-
-.grp-adulte-form3 img{
-    width: 50%;
-    height: 40%;
-    margin-bottom: -20px;
-}
-
-.grp-adulte-form3 p{
-    font-size: 12px;
-}
-
-.grp-adulte-form3 span{
-    color: #168020;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #000;
-}
-
-/*Groupes Adulte formule 4*/
-.grp-adulte-form4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 1%;
-    height: 40%;
-    background-color: rgba(82, 255, 25, 0.5);
-    border-radius: 2%;
-}
-
-.grp-adulte-form4 img{
-    width: 40%;
-    height: 50%;
-    margin-left: -15px;
-    margin-bottom: -20px;
-}
-
-.grp-adulte-form4 p{
-    font-size: 12px;
-}
-
-.grp-adulte-form4 span{
-    color: #52FF19;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #000;
 }
 
 .page_img4{
     position: absolute;
-    width: 700px;
+    width: 400px;
     height: 600px;
-    left: 13800px;
+    left: 11300px;
 }
 
 .page_img4 .image1{
@@ -1185,120 +1056,20 @@ video{
 
 .page_img4 .image2{
     position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 51%;
-    top: 55%;
-    border: 10px solid transparent;
-    border-image: url("../assets/wood1.png") 200;
-}
-
-.page_img4 .image3{
-    position: absolute;
     width: 250px;
-    height: 450px;
+    height: 400px;
     left: 100%;
     top: 20%;
     border: 10px solid transparent;
     border-image: url("../assets/wood1.png") 200;
 }
 
-.groupes5{
-    top: 55%;
-    width: 600px;
-    height: 550px;
-    left: 14800px;
-}
-
-.grp-adulte-pass-titre img{
-    width: 50%;
-    margin: 1%;
-}
-
-.grp-adulte-pass-titre h3{
-    text-align: center;
-    font-family: "comic";
-    font-weight: bold;
-    font-size: 16px;
-    margin-top: -15px;
-}
-
-.formule-adultes-pass{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    height: 90%;
-}
-
-.formule-adultes-pass div{
-    margin: 1%;
-}
-
-/*Groupes Adulte Pass formule 1*/
-.grp-adulte-pass-form1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 1%;
-    height: 40%;
-    background-color: rgba(63, 0, 255, 0.5);
-    border-radius: 2%;
-}
-
-.grp-adulte-pass-form1 img{
-    width: 60%;
-    height: 40%;
-    margin-left: -15px;
-}
-
-.grp-adulte-pass-form1 p{
-    font-size: 14px;
-    margin-top: -10px;
-}
-
-.grp-adulte-pass-form1 span{
-    color: #3F00FF;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #000;
-}
-
-/*Groupes Adulte Pass formule 2*/
-.grp-adulte-pass-form2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 1%;
-    height: 40%;
-    background-color: rgba(254, 80, 0, 0.5);
-    border-radius: 2%;
-}
-
-.grp-adulte-pass-form2 img{
-    width: 45%;
-    height: 30%;
-    margin-bottom: -20px;
-}
-
-.grp-adulte-pass-form2 p{
-    font-size: 16px;
-}
-
-.grp-adulte-pass-form2 span{
-    color: #FE5000;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px #000;
-}
-
-/*******************************/
 .download
 {
     top: 44%;
     width: 400px;
     height: 400px;
-    left: 19000px;
+    left: 12200px;
 }
 
 form{
@@ -1314,6 +1085,75 @@ form{
 
 label{
     font-family: "comic";
+}
+
+.page_img7{
+    z-index: 503;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 12800px;
+}
+
+.page_img7 .image1{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    bottom: 0;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img7 .image2{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 50%;
+    top: 15%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img7 .image3{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    left: 100%;
+    top: 50%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.parcours{
+    top: 55%;
+    left: 13900px;
+}
+
+.page_img8{
+    z-index: 503;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 14900px;
+}
+
+.page_img8 .image1{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 15%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
+}
+
+.page_img8 .image2{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 100%;
+    top: 50%;
+    border: 10px solid transparent;
+    border-image: url("../assets/wood1.png") 200;
 }
 
 .masquotte {
@@ -1354,7 +1194,7 @@ label{
     position: fixed !important;
     top: 550px;
     height: 5px;
-    width: 30000px;
+    width: 17000px;
     z-index: 502;
     background-image: url('../assets/cable.jpg');
     background-size: cover;
@@ -1366,8 +1206,12 @@ label{
 }
 
 .documentation2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     top: 55%;
-    left: 19500px;
+    left: 15900px;
     height: 540px;
 }
 
@@ -1377,13 +1221,17 @@ label{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50%;
+    height: 250px;
+    margin: 1%;
 }
 
-/*.documentation2 .image11{
-    width: 50%;
-    height: 155px;
-}*/
+.documentation2 h3{
+    margin-bottom: -10px;
+}
+
+.documentation2 .image11{
+    width: 70%;
+}
 
 footer {
     position: fixed;
