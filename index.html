@@ -23,12 +23,24 @@
     <meta property="og:locale" content="fr_FR">
     <!--/////////////////////////  Facebook Meta ////////////////////////////////-->
 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
     <!-- CSS PERSO -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/loader.css">
+
 </head>
 
 <body>
+  <!-- Large modal -->
+  <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <img src="assets/formules/img/FORMULES2017/ANNIVERSAIRE/FP-Flyer-Anniv Accrobranche.jpg" alt="">
+          </div>
+      </div>
+  </div>
 
     <div id="char_1" class="loader">
         <img class="forest_load animationjoy" src="assets/logos/ForestParc.png"/>
@@ -281,7 +293,7 @@
 
                     <article class="formules-anniv">
                         <h3><i class="fa fa-th-list" aria-hidden="true"></i> Formules Anniversaires :</h3>
-                        <div class="form-anniv-accro">
+                        <div type="button" class="form-anniv-accro btn" data-toggle="modal" data-target=".bs-example-modal-lg">
                             <p><i class="fa fa-plus-circle" aria-hidden="true"></i> FORMULE ANNIVERSAIRE ACCROBRANCHE</p>
                         </div>
 
@@ -436,22 +448,19 @@
                 <a href="#">
                 <img title="copyright" src="assets/footer/copyright.png"/></a>
             </div>
+            <i class="fa fa-times fa-2x" aria-hidden="true"></i>
         </footer>
-
 </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
     <script src='js/idwtn.js'></script>
 <!--    <script src="scrollto/lib/jquery-scrollto.js"></script>-->
     <script src="js/index.js"></script>
 <!--    <script src="js/smooth-scroll1.js"></script>-->
     <script src="js/loader.js"></script>
     <script src="https://use.fontawesome.com/64454e2715.js"></script>
-    <script>
-        window.noZensmooth = true
-
-    </script>
     <script src="js/myscroll.js"></script>
-    <script src="zenscroll-latest/zenscroll-min.js"></script>
 </body>
 </html>

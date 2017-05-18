@@ -35,6 +35,17 @@ body
     background: #238acb;
 }
 
+.modal-content img{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 section{
     display: flex;
     justify-content: center;
@@ -237,7 +248,7 @@ left: 100px;
     position: absolute;
     top: 430px;
     width: 680px;
-    height: 480px;
+    height: 520px;
     left: 360px;
 }
 
@@ -313,7 +324,7 @@ video{
     position: absolute;
     top: 430px;
     width: 680px;
-    height: 480px;
+    height: 520px;
     left: 2700px;
 }
 .description2 > p ~ p {
@@ -383,7 +394,7 @@ video{
     top: 55%;
     left: 4850px;
     width: 800px;
-    height: 540px;
+    height: 560px;
 }
 
 .documentation section{
@@ -721,7 +732,7 @@ video{
 {
     top: 55%;
     width: 1000px;
-    height: 550px;
+    height: 600px;
     left: 8000px;
 }
 
@@ -772,7 +783,7 @@ video{
 }
 
 .options .reservation p{
-    font-size: 14px;
+    font-size: 12px;
     margin-top: -13px;
 }
 
@@ -1242,11 +1253,13 @@ label{
 footer {
     position: fixed;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgba(10, 100, 10, 0.6);
     bottom: 0;
     width: 100%;
     z-index: 600;
+    padding: 0.5%;
 }
 
 .foo {
@@ -1258,7 +1271,6 @@ footer {
 .foo img {
     height: 32px;
     align-items: center;
-    margin: 4px;
 }
 
 .foo img:hover {
