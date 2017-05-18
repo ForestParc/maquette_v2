@@ -106,7 +106,7 @@ hr
 
 .nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 50px;
@@ -788,6 +788,12 @@ video{
     height: 380px;
     background-color: rgba(70, 229, 3, 0.5);
     border-radius: 2%;
+}
+
+.formules-anniv h3{
+    font-size: 26px;
+    color: #46E503;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .form-anniv-accro{
