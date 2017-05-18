@@ -49,22 +49,22 @@
                     <ul>
                         <!-- On règle les ancres ici -->
                         <li>
-                            <a data-scroll href="#presentation" id="presentation-nav">Présentation</a>
+                            <a href="#" data-scroll="presentation" id="presentation-nav">Présentation</a>
                         </li>
                         <li>
-                            <a data-scroll href="#documentation" id="documentation-nav">Formules et tarifs</a>
+                            <a href="#" data-scroll="documentation" id="documentation-nav">Formules et tarifs</a>
                         </li>
                         <li>
-                            <a data-scroll href="#options" id="options-nav">Anniversaires</a>
+                            <a href="#" data-scroll="options" id="options-nav">Anniversaires</a>
                         </li>
                         <li>
-                            <a data-scroll href="#groupes" id="groupes-nav">Groupes</a>
+                            <a href="#" data-scroll="groupes" id="groupes-nav">Groupes</a>
                         </li>
                         <li>
-                            <a data-scroll href="#carte" id="carte_nav">Carte Intéractive</a>
+                            <a href="#" data-scroll="carte" id="carte_nav">Carte Intéractive</a>
                         </li>
                         <li>
-                            <a data_scroll href="#contact" id="contact-nav">Contact</a>
+                            <a href="#" data_scroll="contact" id="contact-nav">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -147,7 +147,7 @@
                 <img src="assets/formules/img/groupes7.jpg" alt="" class="image4">
             </div>
 
-            <div name="documentation" id="documentation" class="documentation page">
+            <div data_anchor="documentation" name="documentation" id="documentation" class="documentation page">
                 <h2><i class="fa fa-th-list" aria-hidden="true"></i> FORMULES ET TARIFS</h2>
                 <section>
                     <article>
@@ -386,8 +386,9 @@
                 <img src="assets/description/toile.JPG" alt="" class="image2">
                 <img src="assets/description/kid.JPG" alt="" class="image3">
             </div>
-
+           
             <div id="parcours" class="parcours page">
+                 <h2>Nos Parcours</h2>
                 <img src="assets/parcours.png" alt="">
             </div>
 
@@ -431,14 +432,21 @@
                 <img title="copyright" src="assets/footer/copyright.png"/></a>
             </div>
         </footer>
+
+</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='js/idwtn.js'></script>
-    <script src="scrollto/lib/jquery-scrollto.js"></script>
+<!--    <script src="scrollto/lib/jquery-scrollto.js"></script>-->
     <script src="js/index.js"></script>
-    <script src="js/smooth-scroll1.js"></script>
+<!--    <script src="js/smooth-scroll1.js"></script>-->
     <script src="js/loader.js"></script>
     <script src="https://use.fontawesome.com/64454e2715.js"></script>
-</div>
+    <script>
+        window.noZensmooth = true
+
+    </script>
+    <script src="js/myscroll.js"></script>
+    <script src="zenscroll-latest/zenscroll-min.js"></script>
 </body>
 </html>
