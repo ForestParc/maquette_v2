@@ -33,14 +33,31 @@
 </head>
 
 <body>
-  <!-- Large modal -->
-  <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-      <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-              <img src="assets/formules/img/FORMULES2017/ANNIVERSAIRE/FP-Flyer-Anniv Accrobranche.jpg" alt="">
-          </div>
-      </div>
-  </div>
+  <!-- MODALS -->
+  <!-- modal Flyer Formules Anniversaire -->
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <img src="assets/formules/img/FORMULES2017/ANNIVERSAIRE/FP-Flyer-Anniv Accrobranche.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- modal Flyer Formules Forest Pass -->
+    <div class="modal fade bs-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <img src="assets/formules/img/FORMULES2017/ANNIVERSAIRE/FP-Flyer-Anniv Forestpass.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- modal Flyer Formules Laser Game -->
+    <div class="modal fade bs-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <img src="assets/formules/img/FORMULES2017/ANNIVERSAIRE/FP-Flyer-Anniv Lasergame.jpg" alt="">
+            </div>
+        </div>
+    </div>
 
     <div id="char_1" class="loader">
         <img class="forest_load animationjoy" src="assets/logos/ForestParc.png"/>
@@ -297,11 +314,11 @@
                             <p><i class="fa fa-plus-circle" aria-hidden="true"></i> FORMULE ANNIVERSAIRE ACCROBRANCHE</p>
                         </div>
 
-                        <div class="form-anniv-laser">
+                        <div type="button" class="form-anniv-laser" data-toggle="modal" data-target=".bs-example-modal-lg2">
                             <p><i class="fa fa-plus-circle" aria-hidden="true"></i> FORMULE ANNIVERSAIRE LASER GAME</p>
                         </div>
 
-                        <div class="form-anniv-pass">
+                        <div type="button" class="form-anniv-pass" data-toggle="modal" data-target=".bs-example-modal-lg3">
                             <p><i class="fa fa-plus-circle" aria-hidden="true"></i> FORMULE ANNIVERSAIRE FOREST PASS</p>
                         </div>
                     </article>
