@@ -39,6 +39,23 @@ body
     width: 100%;
 }
 
+.modal-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-footer .fa-cloud-download, .fa-star, .close{
+    color: #1F8E1F;
+}
+
+.modal-footer .fa-cloud-download:hover, .fa-star:hover{
+    color: rgba(31, 142, 31, 0.5);
+    text-shadow: 1px 1px 2px #000;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -280,6 +297,7 @@ video{
 .page_img img{
     margin: 1%;
     z-index: 503;
+    cursor: pointer;
 }
 
 .page_img .image1{
@@ -353,6 +371,10 @@ video{
     width: 1000px;
     height: 600px;
     left: 3400px;
+}
+
+.page_img5 img{
+    cursor: pointer;
 }
 
 .page_img5 .image1{
@@ -452,7 +474,7 @@ video{
 }
 
 .footer-doc-form p{
-    font-size: 12px;
+    font-size: 11px;
     font-family: "comic";
     margin: 1%;
 }
@@ -478,6 +500,7 @@ video{
 .doc-form1-sec img{
     width: 50px;
     height: 50px;
+    margin-left: 22px;
 }
 
 .formule1{
@@ -487,7 +510,7 @@ video{
 }
 
 .descrip-form1{
-    font-size: 12px;
+    font-size: 11px;
     margin-top: -2px;
 }
 
@@ -502,7 +525,7 @@ video{
 }
 
 .footer-doc-form1 p{
-    font-size: 12px;
+    font-size: 11px;
     font-family: "comic";
     margin: 1%;
 }
@@ -528,6 +551,7 @@ video{
 .doc-form2-sec img{
     width: 50px;
     height: 50px;
+    margin-left: 20px;
 }
 
 .formule2{
@@ -537,7 +561,7 @@ video{
 }
 
 .descrip-form2{
-    font-size: 12px;
+    font-size: 11px;
     margin-top: -2px;
 }
 
@@ -552,7 +576,7 @@ video{
 }
 
 .footer-doc-form2 p{
-    font-size: 12px;
+    font-size: 11px;
     font-family: "comic";
     margin: 1%;
 }
@@ -578,6 +602,7 @@ video{
 .doc-form3-sec img{
     width: 50px;
     height: 50px;
+    margin-left: 10px;
 }
 
 .formule3{
@@ -587,7 +612,7 @@ video{
 }
 
 .descrip-form3{
-    font-size: 12px;
+    font-size: 11px;
     margin-top: -2px;
 }
 
@@ -602,7 +627,7 @@ video{
 }
 
 .footer-doc-form3 p{
-    font-size: 12px;
+    font-size: 11px;
     font-family: "comic";
     margin: 1%;
 }
@@ -629,6 +654,7 @@ video{
 .doc-form4-sec img{
     width: 50px;
     height: 50px;
+    margin-left: 27px;
 }
 
 .formule4{
@@ -638,7 +664,7 @@ video{
 }
 
 .descrip-form4{
-    font-size: 12px;
+    font-size: 11px;
     margin-top: -2px;
 }
 
@@ -653,6 +679,7 @@ video{
 .page_img2 img{
     margin: 1%;
     z-index: 503;
+    cursor: pointer;
 }
 
 .page_img2 .image18{
@@ -706,6 +733,7 @@ video{
 
 .page_img3 img{
     z-index: 503;
+    cursor: pointer;
 }
 
 .page_img3 .image35{
@@ -813,7 +841,7 @@ video{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 40px;
+    height: 45px;
     background-color: #237201;
     border-radius: 2%;
     cursor: pointer;
@@ -827,9 +855,6 @@ video{
     color: #fff;
     font-family: "comic";
     font-weight: bold;
-}
-
-.form-anniv-accro p:hover{
     font-size: 18px;
 }
 
@@ -839,7 +864,7 @@ video{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 40px;
+    height: 45px;
     background-color: #9D0A0F;
     border-radius: 2%;
     cursor: pointer;
@@ -853,9 +878,6 @@ video{
     color: #fff;
     font-family: "comic";
     font-weight: bold;
-}
-
-.form-anniv-laser p:hover{
     font-size: 18px;
 }
 
@@ -865,7 +887,7 @@ video{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 40px;
+    height: 45px;
     background-color: #F87103;
     border-radius: 2%;
     cursor: pointer;
@@ -879,9 +901,6 @@ video{
     color: #fff;
     font-family: "comic";
     font-weight: bold;
-}
-
-.form-anniv-pass p:hover{
     font-size: 18px;
 }
 
@@ -892,6 +911,10 @@ video{
     top: 55%;
     left: 9100px;
     z-index: 503;
+}
+
+.page_img6 img{
+    cursor: pointer;
 }
 
 .page_img6 .image1{
@@ -1061,6 +1084,10 @@ video{
     left: 11300px;
 }
 
+.page_img4 img{
+    cursor: pointer;
+}
+
 .page_img4 .image1{
     position: absolute;
     width: 250px;
@@ -1085,7 +1112,7 @@ video{
 {
     top: 44%;
     width: 400px;
-    height: 400px;
+    height: 450px;
     left: 12200px;
 }
 
@@ -1098,6 +1125,8 @@ form{
 
 #submit_button{
     font-family: "comic";
+    background-color: #1F8E1F;
+    border: none;
 }
 
 label{
@@ -1110,6 +1139,10 @@ label{
     width: 600px;
     height: 600px;
     left: 12800px;
+}
+
+.page_img7 img{
+    cursor: pointer;
 }
 
 .page_img7 .image1{
@@ -1146,12 +1179,20 @@ label{
     left: 13900px;
 }
 
+.parcours img{
+    cursor: pointer;
+}
+
 .page_img8{
     z-index: 503;
     position: absolute;
     width: 400px;
     height: 600px;
     left: 14900px;
+}
+
+.page_img8 img{
+    cursor: pointer;
 }
 
 .page_img8 .image1{
