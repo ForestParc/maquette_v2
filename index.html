@@ -29,10 +29,12 @@
     <!-- CSS PERSO -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/loader.css">
+<!--    <script src="jquery-scrollto/lib/jquery-scrollto.js"></script>
+    <script src="jquery-scrollto/vendor/jquery.js"></script>-->
 
 </head>
 
-<body>
+<body onload="loaded()">
   <!-- MODALS FORMULES -->
   <!-- modal Flyer Formules Anniversaire -->
     <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -559,30 +561,31 @@
             </div>
 
             <div class="credits">
-                <nav class="nav" id="wrapper">
+                <nav class="nav" id="wrapperse">
                     <ul>
                         <!-- On règle les ancres ici -->
                         <li>
-                            <a href="#" data-scroll="presentation" id="presentation-nav">Présentation</a>
+                            <a href="#presentation"  id="presentation-nav">Présentation</a>
                         </li>
                         <li>
-                            <a href="#" data-scroll="documentation" id="documentation-nav">Formules et tarifs</a>
+                            <a href="#documentation" id="documentation-nav">Formules et tarifs</a>
+                        </li>
+                         <li>
+                            <a href="#parcours" id="carte_nav">Nos Parcours</a>
                         </li>
                         <li>
-                            <a href="#" data-scroll="laser" id="laser-nav">Laser Game</a>
+                            <a href="#laser" id="laser-nav">Laser Game</a>
                         </li>
                         <li>
-                            <a href="#" data-scroll="options" id="options-nav">Anniversaires</a>
+                            <a href="#options"  id="options-nav">Anniversaires</a>
                         </li>
                         <li>
-                            <a href="#" data-scroll="groupes" id="groupes-nav">Groupes</a>
+                            <a href="#groupes" id="groupes-nav">Groupes</a>
                         </li>
                         <li>
-                            <a href="#" data-scroll="contact" id="contact-nav">Contact</a>
+                            <a href="#contact"  id="contact-nav">Contact</a>
                         </li>
-                        <li>
-                            <a href="#" data-scroll="carte" id="carte_nav">Nos Parcours</a>
-                        </li>
+                       
                     </ul>
                 </nav>
             </div>
@@ -939,7 +942,7 @@
 
         <footer>
             <div class="foo">
-               <a href="#">
+               <a href="">
                 <img title="facebook" src="assets/footer/facebook.png"/></a>
                 <a href="#">
                 <img title="twitter" src="assets/footer/twitter.png"/></a>
@@ -954,11 +957,14 @@
     <!-- Bootstrap -->
     <script src="js/bootstrap/bootstrap.min.js"></script>
     <script src='js/idwtn.js'></script>
-<!--    <script src="scrollto/lib/jquery-scrollto.js"></script>-->
     <script src="js/index.js"></script>
-<!--    <script src="js/smooth-scroll1.js"></script>-->
     <script src="js/loader.js"></script>
     <script src="https://use.fontawesome.com/64454e2715.js"></script>
+<!--    <script>window.noZensmooth = true</script>
+    <script src="js/zenscroll-min.js"></script>-->
     <script src="js/myscroll.js"></script>
+    
+    
+
 </body>
 </html>
