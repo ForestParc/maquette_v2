@@ -14,4 +14,5 @@ $(function() {
             elem.reinitialize();
           }
         });
+
     });
