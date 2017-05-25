@@ -277,13 +277,17 @@ left: 100px;
 }
 
 .description .image0{
-    width: 30%;
+    width: 35%;
     height: 20%;
 }
 
+.description .image1{
+    width: 35%;
+}
+
 .description .image0bis{
-    width: 260px;
-    height: 150px;
+    width: 230px;
+    height: 130px;
     border-radius: 35%;
 }
 
@@ -352,6 +356,11 @@ video{
     height: 520px;
     left: 2700px;
 }
+
+.txt-descrip2{
+    font-size: 23px;
+}
+
 .description2 > p ~ p {
     margin: 3px;
     padding-left: 8px;
@@ -709,23 +718,26 @@ video{
 }
 
 .groupes3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 55%;
-    width: 380px;
-    height: 530px;
-    left: 6700px;
+    width: 400px;
+    height: 580px;
+    left: 7650px;
 }
 
 
 .grp-laser img{
     width: 100%;
-    height: 500px;
+    height: 540px;
     cursor: pointer;
 }
 
 .page_img3{
     position: absolute;
     top: 20%;
-    left: 7300px;
+    left: 8200px;
     width: 500px;
     height: 600px;
 }
@@ -760,7 +772,7 @@ video{
     top: 55%;
     width: 1000px;
     height: 600px;
-    left: 8000px;
+    left: 9000px;
 }
 
 .sec_options{
@@ -908,7 +920,7 @@ video{
     width: 1000px;
     height: 600px;
     top: 55%;
-    left: 9100px;
+    left: 10100px;
     z-index: 503;
 }
 
@@ -947,7 +959,7 @@ video{
     top: 55%;
     width: 900px;
     height: 550px;
-    left: 10300px;
+    left: 11400px;
 }
 
 .grp-ado-titre{
@@ -1080,7 +1092,7 @@ video{
     position: absolute;
     width: 400px;
     height: 600px;
-    left: 11300px;
+    left: 12400px;
 }
 
 .page_img4 img{
@@ -1112,7 +1124,7 @@ video{
     top: 44%;
     width: 400px;
     height: 450px;
-    left: 12200px;
+    left: 13300px;
 }
 
 form{
@@ -1137,7 +1149,7 @@ label{
     position: absolute;
     width: 600px;
     height: 600px;
-    left: 12800px;
+    left: 13900px;
 }
 
 .page_img7 img{
@@ -1175,7 +1187,7 @@ label{
 
 .parcours{
     top: 55%;
-    left: 13900px;
+    left: 6600px;
 }
 
 .parcours img{
@@ -1187,7 +1199,7 @@ label{
     position: absolute;
     width: 400px;
     height: 600px;
-    left: 14900px;
+    left: 15900px;
 }
 
 .page_img8 img{
@@ -1268,7 +1280,7 @@ label{
     justify-content: center;
     align-items: center;
     top: 55%;
-    left: 15900px;
+    left: 14900px;
     height: 540px;
 }
 
